@@ -11,15 +11,12 @@
  }, {
     quote: `"If you want to live a happy life, tie it to a goal, not to people or things."`,
     person: `Albert Einstein`
-    
  }, {
     quote: `"At his best, man is the noblest of all animals; separated from law and justice he is the worst of all."`,
         person: `Aristotle`
-
  }, {
     quote: `"Your time is limited, so do not waste it living someone else's life."`,
         person:`Steve Jobs`
-
  }, {
     quote: `"Go confidently in the direction of your dreams! Live the life you've imagined."`,
     person: `Henry David Thoreau`
@@ -99,6 +96,7 @@
 
     //Getting a random number from the array and into the whole number with Math,floor function
     let random_quotes = Math.floor(Math.random() * quotes.length);
+  
     //Getting thhe quotes and the author of the quote
     quote.innerText = quotes[random_quotes].quote;
     person.innerText = quotes[random_quotes].person;
